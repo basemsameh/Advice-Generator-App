@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800);
+
+/* Start of general styling */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.2s linear 0s;
+  font-family: "Manrope", sans-serif;
+}
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --Light-Cyan: #cee3e9;
+  --Neon-Green: #52ffa8;
+  --Grayish-Blue: #4e5d73;
+  --Dark-Grayish-Blue: #323a49;
+  --Dark-Blue: #1f2632;
+}
+/* Ends of general styling */
+
+body {
+  background-color: var(--Dark-Blue);
+  height: 100vh;
+}
+
+main {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  background-color: var(--Dark-Grayish-Blue);
+}
+
+.main-color {
+  color: var(--Neon-Green);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.btn-dice {
+  background-color: var(--Neon-Green) !important;
+  bottom: -25px;
+}
+
+.btn-dice:hover {
+  background-color: var(--Neon-Green);
+  box-shadow: 0 0 20px var(--Neon-Green);
+}
