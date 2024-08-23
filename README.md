@@ -35,7 +35,7 @@ The Advice Generator App is a simple web application that provides users with ra
 ## Links
 
 - **Repo**: [Github Repo](https://github.com/basemsameh/Advice-Generator-App.git)
-- **Demo**: [Live URL](https://basemsameh.github.io/Calculator/)
+- **Demo**: [Live URL](https://basemsameh.github.io/Advice-Generator-App/)
 
 ## Author
 
